@@ -1,0 +1,57 @@
+@media only screen and (max-width: 1024px){
+.min-width{
+    display: none;
+    
+}
+.transform-text{
+    text-transform: capitalize;
+}
+.active-1{
+display: flex;
+justify-content: space-between;
+
+}
+.hidden-logo{
+    display: none;
+}
+.min-width-games{
+       width: 30px;
+       height: 30px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       align-items: center;
+       background-color: #15171E ;
+
+  
+}
+
+.min-width-games:hover{
+   transform: scale(1.2);
+   transition: 300ms;
+   -webkit-transform: scale(1.2);
+   -moz-transform: scale(1.2);
+   -ms-transform: scale(1.2);
+   -o-transform: scale(1.2);
+   -webkit-transition: 300ms;
+   -moz-transition: 300ms;
+   -ms-transition: 300ms;
+   -o-transition: 300ms;
+}
+.max-width1{
+    width: 1250px;
+     display: block;
+}
+.search-box{
+    flex-grow: 1;
+}
+}
+.footer-fainal{
+    width:100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}

@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "regular";
+    src: url("../fonts/Blizzard-Regular.woff2");
+}
+@font-face {
+    font-family: "bold";
+    src: url("../fonts/Blizzard-Bold.woff2");
+}
